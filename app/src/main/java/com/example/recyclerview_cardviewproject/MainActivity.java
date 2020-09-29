@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void removeItem(int position) {
         mExampleList.remove(position);
-        mAdapter.notifyItemRemoved(position);
+        mAdapter.notifyItemRemoved(position );
     }
 
     public void createExampleList() {
